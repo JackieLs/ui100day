@@ -1,0 +1,148 @@
+.work-wrap{
+	width: 242px;
+	float: left;
+	height: 254px;
+	margin-bottom: 20px;
+	&>div{
+			width: 242px;
+			margin: 0 auto;
+		    height: 100%;
+		    background-color: #fff;
+		    border-radius: 4px;
+	}
+	.work-image{
+		img{
+			width: 242px;
+			height: 183px;
+		}
+		background: #fff;
+	}
+	.work-info{
+		.info-title{
+			font-weight: bold;
+			width: 242px;
+			margin: 10px auto;
+			padding-left: 12px;
+			box-sizing: border-box;
+		}
+		.info-detail{
+			width: 242px;
+			margin: 0 auto;
+			img{
+				width: 20px;
+				height: 20px;
+				border-radius: 50%;
+				vertical-align: middle;
+				margin-left: 12px; 
+				margin-right:6px;
+			}
+			.detail-likes{
+				margin-right:12px;
+				&>span{
+					display: inline-block;
+				    height: 20px;
+				    line-height: 20px;
+				}
+			}
+		}
+	}
+}
+.flex-block {
+    max-width: 1835px;
+    margin: 0 auto;
+}
+.text-48{
+	font-size:48px;
+}
+.text-30{
+	font-size:30px;
+}
+.text-24{
+	font-size:24px;
+}
+.text-16{
+	font-size:16px;
+}
+.color-dark-grey{
+	color:#656565
+}
+.today-work-wrap{
+	width: 80%;
+	margin: 20px auto;
+	.today-work-info{
+		.line{
+			width: 120px;
+			height: 4px;
+		}
+		.passage{
+			color: #a6a6a6;
+			line-height: 30px;
+		}
+		&>div{
+			width: 383px;
+		}
+		.designVedio{
+			margin: 40px 0;
+		}
+		.attach{
+			.attach-download{
+				margin-bottom:15px;
+			}
+		}
+	}
+	.today-work-upload{
+		width: 670px;
+		height: 508px;
+		background-color: #ccc;
+		margin: 0 auto;
+		margin-bottom:30px;
+		img{
+			width: 100%;
+			height: 100%;
+			border-radius:4px;
+			border:10px solid #fff;
+			box-sizing: border-box;
+		}
+	}
+}
+.today-work-list-ul{
+	.work-wrap{
+		height: 222px;
+		.today-work-item-title{
+			height: 36px;
+    		line-height: 36px;
+    		.color-grey{
+    			margin-left:14px;
+    			margin-right:5px;
+    		}
+		}
+	}
+}
+@media screen and (max-width: 2059px){
+	.flex-block {
+	    max-width: 1835px;
+	}
+}
+@media screen and (max-width: 1809px){
+	.flex-block {
+		max-width: 1573px;
+	}
+}
+@media screen and (max-width: 1559px){
+	.flex-block {
+		max-width: 1311px;
+	}
+}
+@media screen and (max-width: 1309px){
+	.flex-block {
+		max-width: 1049px;
+	}
+}
+@media screen and (max-width: 1059px){
+	.flex-block {
+		max-width: 787px;
+		min-width: 787px;
+	}
+}
+
+
